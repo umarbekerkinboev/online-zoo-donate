@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+    <div class="inner-width">
+      <h1>PetStory Online </h1>
+      <div class="navbar-menu">
+        <a href="about.html"><img src="/images 2/black-logo.png" alt="zoo logo" class="logo"></a>
+        <a href="about.html">About</a>
+        <a href="#">Map</a>
+        <a href="#">Zoos</a>
+        <a href="#"><strong>Donate</strong></a>
+        <a href="#">Contact us</a>
+        <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" id="header-copyright">Designed by
+          ©</a>
+      </div>
+    </div>
+    </nav>
+    <!-- 20px yellow area -->
+<p>   <div class="container">
+          <div class="row">
+            <h3 class="white uppercase">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+            <p class="white">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with
+              educational programs and public and private events cancelled or postponed for additional months. <span>We need
+                you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds
+                in the community, and we are grateful for the generosity.</span> But much more support is still needed, and
+              we need your help! Please consider a gift today no matter what size to help us sustain our mission.</p>
+          </div>
+</p>
+  <!--/////////////////////
+Block Pick and feed a friend
+  //////////////////////-->
+<section id="pick-friend">
+  <div id="pick-friend-box">
+    <h2 id="pick-friend-title">Pick and feed a friend</h2>
+    <div id="pick-friend-text-box">
+      <p id="pick-friend-subtitle">We know the animals bring you joy, and in these extraordinary times,
+        we’re glad.</p>
+        <img src="/images 2/Panda-Bamboo_Panda-Quiz_KIDS_1021_2x1.webp" alt="panda icon" class="animal-icon-donate">
+<main>
+<section id="donate">
+          <div class="row">
+            <form class="donate-form">
+              <div class="progress-bar">
+                <p class="progress-bar-title">Amount</p>
+                <ul>
+                  <li>$5000</li>
+                  <li>$4000</li>
+                  <li>$3000</li>
+                  <li>$2000</li>
+                  <li>$1000</li>
+                </ul>
+                <!-- input -->
+                <input type="number" id="donateField" class="progress-bar-donate-input" placeholder="Another amount"
+                    min="1" max="9999" step="1">
+                    <input type="radio" placeholder="Monthly">
+                    <label for="month">Monthly</label>
+                    <input id="radioButton1" type="radio" placeholder="Once">
+                    <label for="month">Once</label>
+                    <script>
+                      let radBtnDefault = document.getElementById("radioButton1");
+                      radBtnDefault.checked = true;
+                    </script>
+                    <br>
+                    <br>
+                  <button class="button">Feed a friend now</button>
+                </div>
+                <div class="row flex flex-justify-center">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- ///////////FOOTER///////// -->
+<footer>
+  <div id="footer-box">
+    <div id="footer-left-column">
+      <div id="header-logo">
+      <a href="about.html"><img src="/images 2/black-logo.png" alt="zoo logo" class="logo"></a>
+      </div>
+      <a href="index.html">
+      <button href="donate.html" class="donatebutton" >DONATE FOR VOLUNTEERS</button>
+      </a>
+      <nav id="socials">
+        <a href="https://www.facebook.com/" class="social-link-box">
+          <img class="social-icon" src="images 2/facebook.svg">
+          <p class="social-text">Facebook</p>
+        </a>
+        <a href="https://www.twitter.com/" class="social-link-box">
+          <img class="social-icon" src="images 2/twitter.svg">
+          <p class="social-text">Twitter</p>
+        </a>
+        <a href="https://www.instagram.com/" class="social-link-box">
+          <img class="social-icon" src="images 2/instagram.svg">
+          <p class="social-text">Instagram</p>
+        </a>
+        <a href="https://www.youtube.com/" class="social-link-box">
+          <img class="social-icon" src="/images 2/youtube.svg">
+          <p class="social-text">YouTube</p>
+        </a>
+      </nav>
+    </div>
+    <nav id="footer-center-column">
+      <a href="about.html" class="footer-nav-item menu-active">About</a>
+      <a href="#" class="footer-nav-item">Map</a>
+      <a href="#" class="footer-nav-item">Zoos</a>
+      <a href="#" class="footer-nav-item">Contact us</a>
+    </nav>
+    <div id="footer-right-column">
+      <p id="subscribe">Subscribe to our news</p>
+      <form id="form">
+        <input id="email" type="email" placeholder="Enter your email" value="" required></input>
+        <input type="submit" class="btn-submit" value="Submit"></input>
+    </div>
+</footer>
+</body>
+</html>
