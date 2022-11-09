@@ -187,6 +187,7 @@ Block Pick and feed a friend
 #donate {
   background: var(--orange-gradient-color);
   padding-bottom: 81px;
+  cursor: pointer;
 }
 .container{
   margin-top: 110px;
